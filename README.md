@@ -1,2 +1,62 @@
 # Smart-Street-Light-Arduino
 Smart street light project using LDR and Ultrasonic Sensor with Arduino Uno.
+# Smart Street Light using Arduino, LDR & Ultrasonic Sensor 🚦
+
+This project automates street lighting using an **LDR sensor** to detect night/day and an **Ultrasonic sensor** to detect vehicles passing by. The light turns **ON** only at night when a vehicle is nearby, and turns **OFF** otherwise.
+
+---
+
+## 🧠 Features
+- Works only during night (using LDR sensor)
+- Detects vehicles using Ultrasonic Sensor (HC-SR04)
+- Turns LED ON when a vehicle is detected
+- Turns OFF automatically after vehicle passes
+- Can be expanded for multiple street lights
+
+---
+
+## 🧰 Components Used
+- Arduino UNO  
+- LDR Module  
+- Ultrasonic Sensor (HC-SR04)  
+- LED + 220Ω resistor  
+- Breadboard and jumper wires  
+
+---
+
+## ⚙️ Circuit Connections
+
+| Component | Arduino Pin |
+|------------|-------------|
+| LDR OUT | A0 |
+| Ultrasonic TRIG | D9 |
+| Ultrasonic ECHO | D10 |
+| LED | D8 |
+| VCC | 5V |
+| GND | GND |
+
+---
+
+## 💻 Arduino Code
+Main Code: `Smart_Street_Light.ino`  
+Sensor Test Code: `Ultrasonic_Test.ino`
+
+---
+
+## 🧩 How It Works
+1. LDR reads light intensity → determines **day/night**.  
+2. At night, Ultrasonic Sensor measures distance.  
+3. If a vehicle/object is within 30 cm → LED turns ON.  
+4. Otherwise → LED remains OFF.  
+
+---
+
+## 🖼️ Circuit Diagram
+*(Add circuit_diagram.png here once generated)*
+
+---
+
+## 🧑‍💻 Author
+**Amey Jadhav**  
+B.Tech CSE | DBATU University  
+Project Type: IoT & Embedded Systems  
