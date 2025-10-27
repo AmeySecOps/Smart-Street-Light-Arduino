@@ -54,6 +54,6 @@ This project automates street lighting using an **LDR sensor** to detect night/d
 
 ---
 
-## 🧑‍💻 Author
+## 🧑‍💻 Creator 
 **Amey Jadhav**  
 -It just made for a fun   
