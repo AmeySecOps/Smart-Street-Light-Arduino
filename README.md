@@ -36,7 +36,7 @@ This project automates street lighting using an **LDR sensor** to detect night/d
 ---
 
 ## 💻 Arduino Code.
-![Main Code](https://github.com/AmeySecOps/Smart-Street-Light-Arduino/blob/81b01951b7d2cdd7f92159fc1e57428333bd88b5/CODE/Smart_street_light_project.ino)  
+[Main Code](https://github.com/AmeySecOps/Smart-Street-Light-Arduino/blob/81b01951b7d2cdd7f92159fc1e57428333bd88b5/CODE/Smart_street_light_project.ino)  
 
 
 ---
@@ -50,7 +50,7 @@ This project automates street lighting using an **LDR sensor** to detect night/d
 ---
 
 ## 🖼️ Circuit Diagram
-*(Add circuit_diagram.png here once generated)*
+![circuit Diagream](https://github.com/AmeySecOps/Smart-Street-Light-Arduino/blob/f20dd3b124725c7ab8246309ad89d5539e9b4001/Circuit%20Diagram/Circuit%20Diagram.png)
 
 ---
 
